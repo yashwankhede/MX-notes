@@ -4,9 +4,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // GitHub Pages basePath - update if your repo name changes
-  basePath: process.env.NODE_ENV === 'production' ? '/MX-notes' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/MX-notes' : '',
+  // For custom domain, no basePath needed. For github.io subdomain, use '/MX-notes'
+  // Since you're using pentest.matrixploit.com, we don't need basePath
+  basePath: '',
+  assetPrefix: '',
   trailingSlash: true,
 }
 
