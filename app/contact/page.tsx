@@ -56,7 +56,7 @@ export default function ContactPage() {
         {formStatus === 'success' && (
           <div className="mb-6 p-4 bg-matrix-green/20 border border-matrix-green rounded-lg">
             <p className="text-matrix-green font-medium">
-              Message sent successfully! We'll get back to you soon.
+              Message sent successfully! We&apos;ll get back to you soon.
             </p>
           </div>
         )}

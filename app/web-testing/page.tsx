@@ -60,7 +60,7 @@ export default function WebTestingPage() {
           <div>
             <h4 className="font-semibold mb-2">Session Management Testing</h4>
             <pre className="code-block">
-              <code>curl -H "Cookie: session=COOKIE_VALUE" http://target.com/api</code>
+              <code>curl -H &quot;Cookie: session=COOKIE_VALUE&quot; http://target.com/api</code>
             </pre>
             <p className="text-text-secondary text-sm mt-2">
               Test session handling and cookie-based authentication mechanisms.
@@ -95,7 +95,7 @@ export default function WebTestingPage() {
           <div>
             <h4 className="font-semibold mb-2">SQL Injection Testing</h4>
             <pre className="code-block">
-              <code>sqlmap -u "http://target.com/page?id=1" --batch</code>
+              <code>sqlmap -u &quot;http://target.com/page?id=1&quot; --batch</code>
             </pre>
             <p className="text-text-secondary text-sm mt-2">
               Automated SQL injection detection and exploitation tool.
@@ -112,7 +112,7 @@ export default function WebTestingPage() {
           <div>
             <h4 className="font-semibold mb-2">File Upload Bypass Testing</h4>
             <pre className="code-block">
-              <code>curl -F "file=@shell.php.jpg" http://target.com/upload</code>
+              <code>curl -F &quot;file=@shell.php.jpg&quot; http://target.com/upload</code>
             </pre>
             <p className="text-text-secondary text-sm mt-2">
               Test file upload restrictions by modifying file extensions and MIME types.
@@ -121,7 +121,7 @@ export default function WebTestingPage() {
           <div>
             <h4 className="font-semibold mb-2">Content-Type Manipulation</h4>
             <pre className="code-block">
-              <code>curl -F "file=@shell.php" -F "Content-Type: image/jpeg" http://target.com/upload</code>
+              <code>curl -F &quot;file=@shell.php&quot; -F &quot;Content-Type: image/jpeg&quot; http://target.com/upload</code>
             </pre>
             <p className="text-text-secondary text-sm mt-2">
               Bypass file type validation by manipulating Content-Type headers.

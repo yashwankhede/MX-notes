@@ -21,7 +21,7 @@ export default function AboutPage() {
             <p className="text-text-secondary mb-4">
               My journey in pentesting began with a curiosity about how systems work and how they
               can be secured. Through hands-on practice, continuous learning, and participation in
-              various training platforms, I've developed a passion for understanding vulnerabilities
+              various training platforms, I&apos;ve developed a passion for understanding vulnerabilities
               and helping organizations improve their security posture.
             </p>
             <p className="text-text-secondary">

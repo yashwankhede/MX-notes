@@ -30,7 +30,7 @@ export default function PrivacyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-matrix-green">Third-Party Services</h2>
             <p className="text-text-secondary mb-4">
-              This site is hosted on GitHub Pages. Please refer to GitHub's privacy policy for
+              This site is hosted on GitHub Pages. Please refer to GitHub&apos;s privacy policy for
               information about their data handling practices.
             </p>
           </section>
